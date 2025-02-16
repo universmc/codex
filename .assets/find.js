@@ -33,7 +33,7 @@ function exploreDirectory(directory) {
 
 // Fonction pour générer un inventaire complet
 function generateInventory() {
-    const directories = ['./.setup', './models','./app','./build','./items','./src','./srv','./data'];
+    const directories = ['./.setup', './models','./data','./build','./items','./src','./srv'];
     let inventory = {};
 
     directories.forEach((directory) => {
